@@ -13,7 +13,7 @@
 
  body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px; 
+    font-size: 20px; 
     min-width:1200px ;
     color: black;
     
@@ -32,6 +32,14 @@
     
 }
 
+.font-medium{
+    font-size: 50px;
+}
+
+.font-small{
+    font-size: 25px;
+}
+
 
 img{
     max-width: 100%;
@@ -40,6 +48,13 @@ img{
     font-weight: bolder;
 }
 
+.color-gray{
+    color: gray;
+}
+
+
+
+/*****DIMENSIONS*****/
 .pt-100{
     padding-top: 100px;
 }
@@ -48,26 +63,54 @@ img{
     padding-right: 50px;
 }
 
-.mt-50{
-    margin-top: 50px;
+
+.padd-list{
+    padding-left: 30px;
+    padding-top: 10px;
 }
+
 
 .mt-25{
     margin-top: 25px;
 }
+.mt-30{
+    margin-top: 30px;
+}
+
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.mt-200{
+    margin-top: 200px;
+}
+
+.mr-50{
+    margin-right: 50px;
+}
+
 
 .col{
     float: left;
 }
 
-.col.w-50{
-    width: 50%;
-    
-}
-
 .col.w-30{
     width: 30%;
    
+}
+.col.w-33{
+    width: calc(100% / 3);
+
+   
+    
+}
+.col.w-50{
+    width: 50%;
     
 }
 
@@ -87,6 +130,18 @@ a{
     color: black;
    
   }
+ .radio{
+     display: inline-block;
+     height: 20px;
+     width: 20px;
+     border-radius: 50%;
+     border:20px solid white;
+
+ }
+ i.fas{
+     margin-right: 5px;
+ }
+ 
 /*************HEADER****************/
 
 
@@ -142,48 +197,44 @@ a{
    margin-top: 50px;
 }
 
-/* 
-#icons-arrow.mt-50 .fa-arrow-down{
-    color: black;
-    font-size: 500px;
-  } */
-
-/* h1{
-    margin-top: 0px;
-    font-size: 100px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-} */
-
-
-/* 
-
-
-#nav-menu-left li a ,
-#nav-menu-rigth li a{
-    text-decoration: none;
-    margin: 15px;
-    padding: 7px 15px;
+/*************MAIN****************/
+.bord-color-list{
+    border: 1px solid #DBDBDE;
 
 }
-
-
-.content{
-      max-width:80%;
-      height: 100%;
-      margin: 0 auto;
+.bord-color-list-botton{
+    border-bottom: 1px solid #DBDBDE;
 
 }
+/*****************List*************/
 
-#jumbo {
-    max-width: 100%;
+
+.list-icon::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 5px;
 }
 
+li.list-icon{
+    list-style: none;
+    margin-bottom: 20px;
+    padding-left: 1.2em;
+    text-indent: -1.5em;
+}
 
+.col-list .text-center{
+    padding:10px 15px ;
+    
+}
 
+.list-icon.user::before{
+    content: "\f406";
+}
 
+.list-icon.folder::before{
+    content: "\f07b";
+}
 
-#text-info-header,
-#icons-arrow{
-    margin: 20px 0;
-} */
+.list-icon.pencil::before{
+    content: "\f303";
+}
