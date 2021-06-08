@@ -1,3 +1,4 @@
+/**********GENERALI************/
 *{
     margin: 0;
     padding: 0;
@@ -12,50 +13,41 @@
 
  body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: bolder;
-    max-width: 100%;
+    font-size: 18px; 
+    min-width:1200px ;
+    color: black;
+    
+}
 
- }
+/************UTILIS*************/
+
 .bg-color-blue{
     background-color: #0064ff;
     color: white;
+    padding: 7px 15px;
 }
 
 .bg-color-azz{
     background-color: #B4D0E7;
-    color: black;
-}
-
-header{
-    background-color: white;
-}
-
-header .top-bar{
-    height: 80px;
-    line-height: 80px;
-   
     
 }
 
-header .info-header{
-    height: 500px;
-    
-   
+
+img{
+    max-width: 100%;
+}
+.bolder{
+    font-weight: bolder;
 }
 
-.container{ 
-    margin: 0 auto;
-   
+.pt-100{
+    padding-top: 100px;
 }
 
 
-h1{
-    margin-top: 0px;
-    font-size: 100px;
-    padding-top: 70px;
+.mt-50{
+    margin-top: 50px;
 }
-
 .col{
     float: left;
 }
@@ -65,19 +57,52 @@ h1{
     
 }
 
-.col.w-35{
-    width: 35%;
+.col.w-30{
+    width: 30%;
+    background-color: red;
     
 }
 
-.col.w-65{
-    width: 65%;
-    
+.col.w-70{
+    width: 70%;
+    background-color: blueviolet;
 }
-
+.text-center{
+    text-align: center;
+}
 
 .text-right{
     text-align: right;
+}
+a{
+    text-decoration: none;
+    color: black;
+   
+  }
+/*************HEADER****************/
+
+
+.top-bar{
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    position: fixed;
+    z-index: 1;
+    background-color:white;
+  
+}
+
+.container{
+    max-width: 100%;
+
+}
+
+#nav-menu-left li ,
+#nav-menu-rigth li{
+    display: inline;
+    list-style: none;
+    margin: 50px;  
+      
 }
 
 #logo{
@@ -85,12 +110,34 @@ h1{
 
 }
 
-#nav-menu-left li ,
-#nav-menu-rigth li {
-    display: inline;
-    list-style: none;
-    
+
+
+/*************MAIN****************/
+
+.container-small{
+    width: 1500px;
+    margin: 0 auto;
+
 }
+.info-main{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.text-info{
+    font-size: 100px;
+}
+
+
+
+/* h1{
+    margin-top: 0px;
+    font-size: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+} */
+
+
+/* 
 
 
 #nav-menu-left li a ,
@@ -101,15 +148,26 @@ h1{
 
 }
 
-a{
-    color: black;
-  }
 
 .content{
       max-width:80%;
       height: 100%;
-      /* background-color: black; */
       margin: 0 auto;
-     
-   
+
 }
+
+#jumbo {
+    max-width: 100%;
+}
+
+
+
+#icons-arrow .fa-arrow-down{
+  color: black;
+  font-size: 30px;
+}
+
+#text-info-header,
+#icons-arrow{
+    margin: 20px 0;
+} */
