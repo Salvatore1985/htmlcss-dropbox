@@ -15,7 +15,8 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 20px; 
     min-width:1200px ;
-    color: black;
+    
+    
     
 }
 
@@ -27,7 +28,7 @@
     padding: 7px 15px;
 }
 
-.bg-color-azz{
+.color-azz{
     background-color: #B4D0E7;
     
 }
@@ -52,7 +53,7 @@ img{
     color: gray;
 }
 
-
+/*****COLOR*****/
 
 /*****DIMENSIONS*****/
 .pt-100{
@@ -67,6 +68,7 @@ img{
 .padd-list{
     padding-left: 30px;
     padding-top: 10px;
+    padding-right: 30px;
 }
 
 
@@ -99,15 +101,21 @@ img{
     float: left;
 }
 
+.col.col-list{
+    height: 1200px; 
+
+}
 .col.w-30{
     width: 30%;
    
 }
 .col.w-33{
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 20px);
+  
+}
 
-   
-    
+.col.w-33:nth-child(23n+2){
+    margin: 0 30px;
 }
 .col.w-50{
     width: 50%;
@@ -118,6 +126,8 @@ img{
     width: 70%;
     
 }
+
+
 .text-center{
     text-align: center;
 }
@@ -125,11 +135,13 @@ img{
 .text-right{
     text-align: right;
 }
-a{
-    text-decoration: none;
-    color: black;
+
+
+a:hover{
+    text-decoration: underline;
    
-  }
+   
+} 
  .radio{
      display: inline-block;
      height: 20px;
@@ -152,6 +164,8 @@ a{
     position: fixed;
     z-index: 1;
     background-color:white;
+   
+    
   
 }
 
@@ -160,11 +174,11 @@ a{
 
 }
 
-#nav-menu-left li ,
-#nav-menu-rigth li{
+#menu-left li ,
+#menu-rigth li{
     display: inline;
     list-style: none;
-    margin: 50px;  
+    margin: 10px 20px; 
       
 }
 
@@ -172,8 +186,19 @@ a{
     vertical-align: middle;
 
 }
+/*************BTN-link****************/
+li.btn a{
+    color: white;
+    background-color: #0064ff;
+    padding: 5px 10px;
+    text-decoration: none;
+    
+}
 
-
+li a{
+    text-decoration: none;
+    
+}
 
 /*************NAV****************/
 
@@ -183,6 +208,8 @@ a{
     margin: 0 auto;
 
 }
+
+
 .info-nav{
     font-family: 'Archivo Black', sans-serif;
 }
@@ -239,3 +266,36 @@ li.list-icon{
     content: "\f303";
 }
 
+article .div-center a{  
+    color: white;
+    
+}
+
+.div-center  {
+    width: 100%; 
+    background-color: #0064ff;
+    margin: 0 auto;
+}
+
+
+article hr.color-gray.mt-25{
+    width:15%;
+}
+
+.prova{
+    margin-top: 50px;
+}
+
+.list-icon.check::before{
+    content: "\f00c";
+    color: #0064ff;
+}
+
+.list-icon.user-plus::before{
+    content: "\f234";
+}
+
+
+.list-icon.user-plus::before{
+    content: "\f118";
+}
