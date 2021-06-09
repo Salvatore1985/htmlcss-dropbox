@@ -48,8 +48,9 @@ img{
 }
 
 /*****DIMENSIONS*****/
-
-
+.mt-50{
+    margin-top: 50px;
+}
 
 
 
@@ -57,12 +58,20 @@ img{
 .col{
     float: left;
 }
-
+.col.w-30{
+    width: 30%;
+    padding-right: 50px;
+    
+}
 .col.w-50{
     width: 50%;
     
 }
 
+.col.w-70{
+    width: 70%;
+    
+}
 .col.w-33{
     width: calc((100% / 3) - 20px);
   
@@ -92,15 +101,12 @@ img{
 
 }
 
-i.fas{
-     margin-right: 5px;
-}
- 
+
 /*************HEADER****************/
 
 header{
     font-weight: 600;
-   
+    
 }
 
 .top-bar{
@@ -110,12 +116,12 @@ header{
     position: fixed;
     z-index: 1;
     background-color:white;
-
+    
 }
 
 .container{
     max-width: 100%;
-
+    
 }
 
 #menu-left li ,
@@ -123,15 +129,16 @@ header{
     display: inline;
     list-style: none;
     margin: 10px 20px; 
-      
+    
 }
 
 #logo{
     vertical-align: middle;
-
+    
 }
 /*************BTN-link****************/
-li.btn a{
+li.btn a ,
+nav div a{
     color: white;
     background-color: #0064ff;
     padding: 5px 10px;
@@ -145,6 +152,12 @@ li a{
 }
 
 /*************NAV****************/
+ nav{
+     height: 900px;
+ }
+i.fas{
+     margin-right: 5px;
+}
 
 nav.color-azz{
     padding-top: 100px;
@@ -158,9 +171,25 @@ h1{
    padding-top: 50px;
    
 }
+
+div > p{
+    font-size: 16;
+    font-weight: 800;
+   font-style: normal;
+   margin-bottom: 50px;
+   
+   
+}
+
+div p.retreat{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
 #nav-content{
     max-width: 1500px;
     margin: 0 auto;
+    
 
 }
 
@@ -168,7 +197,7 @@ h1{
 #icons-arrow .fa-arrow-down{
    color: black;
    font-size: 50px;
-   margin-top: 50px;
+  
 }
 
 /*************MAIN****************/
