@@ -13,11 +13,9 @@
 
  body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px; 
+    
     min-width:1200px ;
-    
-    
-    
+  
 }
 
 /************UTILIS*************/
@@ -28,87 +26,43 @@
     padding: 7px 15px;
 }
 
-.color-azz{
-    background-color: #B4D0E7;
-    
-}
-
-.font-medium{
-    font-size: 50px;
-}
-
-.font-small{
-    font-size: 25px;
-}
-
+a:hover{
+    text-decoration: underline;
+  
+} 
+/************IMG*************/
 
 img{
     max-width: 100%;
 }
-.bolder{
-    font-weight: bolder;
-}
+
+/*****COLOR*****/
 
 .color-gray{
     color: gray;
 }
 
-/*****COLOR*****/
+.color-azz{
+    background-color: #B4D0E7;
+    
+}
 
 /*****DIMENSIONS*****/
-.pt-100{
-    padding-top: 100px;
-}
-
-.pr-50{
-    padding-right: 50px;
-}
 
 
-.padd-list{
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-right: 30px;
-}
 
 
-.mt-25{
-    margin-top: 25px;
-}
-.mt-30{
-    margin-top: 30px;
-}
 
-
-.mt-50{
-    margin-top: 50px;
-}
-
-.mt-100{
-    margin-top: 100px;
-}
-
-.mt-200{
-    margin-top: 200px;
-}
-
-.mr-50{
-    margin-right: 50px;
-}
-
-
+/*****COLUMN*****/
 .col{
     float: left;
 }
 
-.col.col-list{
-    height: 1200px; 
+.col.w-50{
+    width: 50%;
+    
+}
 
-}
-.col.w-30{
-    width: 30%;
-   
-}
 .col.w-33{
     width: calc((100% / 3) - 20px);
   
@@ -116,15 +70,6 @@ img{
 
 .col.w-33:nth-child(23n+2){
     margin: 0 30px;
-}
-.col.w-50{
-    width: 50%;
-    
-}
-
-.col.w-70{
-    width: 70%;
-    
 }
 
 
@@ -137,25 +82,26 @@ img{
 }
 
 
-a:hover{
-    text-decoration: underline;
-   
-   
-} 
- .radio{
+
+.radio{
      display: inline-block;
      height: 20px;
      width: 20px;
      border-radius: 50%;
      border:20px solid white;
 
- }
- i.fas{
+}
+
+i.fas{
      margin-right: 5px;
- }
+}
  
 /*************HEADER****************/
 
+header{
+    font-weight: 600;
+   
+}
 
 .top-bar{
     height: 80px;
@@ -164,9 +110,7 @@ a:hover{
     position: fixed;
     z-index: 1;
     background-color:white;
-   
-    
-  
+
 }
 
 .container{
@@ -202,21 +146,24 @@ li a{
 
 /*************NAV****************/
 
-.container-small{
-    width: 1500px;
-    height: 1000px;
+nav.color-azz{
+    padding-top: 100px;
+}
+
+
+h1{
+    font-size: 80px;
+    font-weight: 800;
+   font-style: normal;
+   padding-top: 50px;
+   
+}
+#nav-content{
+    max-width: 1500px;
     margin: 0 auto;
 
 }
 
-
-.info-nav{
-    font-family: 'Archivo Black', sans-serif;
-}
-
-.text-info{
-    font-size: 100px;
-}
 
 #icons-arrow .fa-arrow-down{
    color: black;
@@ -233,6 +180,8 @@ li a{
     border-bottom: 1px solid #DBDBDE;
 
 }
+
+
 /*****************List*************/
 
 
