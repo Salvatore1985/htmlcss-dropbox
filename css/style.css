@@ -52,7 +52,9 @@ img{
     margin-top: 50px;
 }
 
-
+.ml{
+    margin-left: 10px;
+}
 
 /*****COLUMN*****/
 .col{
@@ -92,14 +94,6 @@ img{
 
 
 
-.radio{
-     display: inline-block;
-     height: 20px;
-     width: 20px;
-     border-radius: 50%;
-     border:20px solid white;
-
-}
 
 
 /*************HEADER****************/
@@ -136,7 +130,6 @@ header{
     vertical-align: middle;
     
 }
-/*************BTN-link****************/
 li.btn a ,
 nav div a{
     color: white;
@@ -152,11 +145,11 @@ li a{
 }
 
 /*************NAV****************/
- nav{
-     height: 900px;
- }
+nav{
+    height: 900px;
+}
 i.fas{
-     margin-right: 5px;
+    margin-right: 5px;
 }
 
 nav.color-azz{
@@ -167,18 +160,18 @@ nav.color-azz{
 h1{
     font-size: 80px;
     font-weight: 800;
-   font-style: normal;
-   padding-top: 50px;
-   
+    font-style: normal;
+    padding-top: 50px;
+    
 }
 
 div > p{
     font-size: 16;
     font-weight: 800;
-   font-style: normal;
-   margin-bottom: 50px;
-   
-   
+    font-style: normal;
+    margin-bottom: 50px;
+    
+    
 }
 
 div p.retreat{
@@ -190,30 +183,67 @@ div p.retreat{
     max-width: 1500px;
     margin: 0 auto;
     
-
+    
 }
 
 
 #icons-arrow .fa-arrow-down{
    color: black;
    font-size: 50px;
-  
+   
 }
 
 /*************MAIN****************/
-.bord-color-list{
-    border: 1px solid #DBDBDE;
 
+#main-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: blueviolet; */
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 900;
+    font-style: normal;
+    padding-top: 150px;
+}
+.option{
+    display: inline;
+    font-size: 20px;
+    margin-right: 20px;
+    
+}
+.radio.radio-select:active{
+    border: 5px solid blue;
+
+    
+}
+
+.radio{
+     display: inline-block;
+     height: 20px;
+     width: 20px;
+     border-radius: 50%;
+     border:2px solid #d0d0d3;
+     vertical-align: middle;
+     
+
+}
+
+/*************BTN-link****************/
+/* .bord-color-list{
+    border: 1px solid #DBDBDE;
+    
 }
 .bord-color-list-botton{
     border-bottom: 1px solid #DBDBDE;
-
-}
+    
+} */
 
 
 /*****************List*************/
 
-
+/* 
 .list-icon::before{
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
@@ -276,4 +306,4 @@ article hr.color-gray.mt-25{
 
 .list-icon.user-plus::before{
     content: "\f118";
-}
+} */
