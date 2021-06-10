@@ -96,14 +96,31 @@ img{
     padding-right: 50px;
     
 }
+
+.col.w-40{
+    width: 40%;
+    
+    
+}
 .col.w-50{
     width: 50%;
+    
+}
+
+.col.w-60{
+    width: 60%;
     
 }
 
 .col.w-70{
     width: 70%;
     
+}
+
+.col.w-100{
+    width: 100%;
+    border: 1px solid #DBDBDE ;
+  
 }
 .col.w-33{
     width: calc((100% / 3) - 20px);
