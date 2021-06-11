@@ -15,6 +15,7 @@
  body{
     font-family: 'Open Sans', sans-serif;
     min-width:1200px ;
+    
   
 }
 
@@ -268,6 +269,10 @@ margin-bottom:150px ;
 header{
     font-weight: 600;
     
+}
+ 
+header ul li a{
+    color: black;
 }
 
 .top-bar{
