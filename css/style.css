@@ -57,6 +57,13 @@ img{
     color: gray;
 
 }
+.color-red-dark{
+   color: #D5001F;
+}
+.color-brown{
+   color: #61082B;
+}
+
 .bg-color-cielo{
     background-color:#0093CE;
 }
@@ -89,12 +96,19 @@ img{
 .bg-color-brown{
     background-color: #61082B;
 }
-.color-azzurro{
+.bg-color-azzurro{
     background-color: #B4D0E7;
     
 }
 
+.bg-color-gray-light{
+    background-color: #F5F5F5;
+    
+}
+
 /*****DIMENSIONS*****/
+
+
 .mt-50{
     margin-top: 50px;
 
@@ -148,6 +162,16 @@ margin-bottom:150px ;
 .w-50{
     width: 50%;
     
+}
+.w-80{
+    width: 80%;
+    
+}
+
+.w-section-900{
+    width: 900px;
+    margin: 0 auto;
+
 }
 /*****COLUMN*****/
 .col{
@@ -259,7 +283,7 @@ a{
 }
 
 /*************NAV****************/
-nav{
+nav.bg-color-azzurro{
     height: 900px;
 }
 i.fas{
@@ -276,7 +300,7 @@ h1{
     font-size: 80px;
     font-weight: 800;
     font-style: normal;
-    padding-top: 50px;
+    padding-top: 200px;
     
     
 }
@@ -295,7 +319,8 @@ div p.retreat{
     margin-bottom: 50px;
 }
 
-#nav-content{
+#nav-content ,
+.footer-logo-box{
     max-width: 1500px;
     margin: 0 auto;
     
@@ -457,6 +482,8 @@ a.color-blue{
     
 }
 
+
+
 /**************** TEAM*************/
 #entry >p{
     line-height: 27px;
@@ -491,9 +518,50 @@ a.color-blue{
     transform: translate(-50% , -50%);
 }
 
+
+section.bg-color-azzurro > div ,
+section.questions{
+    width: 1500px;
+    margin: 0 auto;
+
+}
 #logo-text {
     width: 40%;
     margin-left: 50px;
     margin-top: 40px;
 }
 
+#start-test{
+    color: black;
+    padding:10px 50px; 
+    margin-top: 150px;
+    background-color: white;
+    float: right;
+
+}
+
+h4.difference{
+    line-height:100px;
+    margin-top: 0;
+}
+
+i.fa-chevron-down{
+    margin: 20px;
+}
+.icon-right{
+    float: right;
+    
+
+}
+.questions.col{
+    line-height: 100px;
+    
+}
+main.clearfix{
+    border-bottom: 1px solid gray;
+
+}
+section.w-900px{
+    width:1200px;
+    margin: 0 auto;
+}
