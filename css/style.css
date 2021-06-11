@@ -140,9 +140,13 @@ margin-bottom:150px ;
 .mb-70{
     margin-bottom:70px ;
     
-    }
+}
     
-
+.mb-30{
+    margin-bottom:30px ;
+    
+}
+    
 
 .ml-20{
     margin-left: 20px;
@@ -154,11 +158,19 @@ margin-bottom:150px ;
 
 }
 
+.w-7{
+    width: 7%;
+    
+}
 .w-15{
     width: 15%;
     
 }
-
+.w-20{
+    width: 20%;
+    
+    
+}
 .w-50{
     width: 50%;
     
@@ -185,6 +197,16 @@ margin-bottom:150px ;
     
 }
 
+.col.w-20{
+    width: 20%;
+    margin-bottom: 100px;
+    
+}
+.col.w-25{
+    width: 25%;
+    padding-right: 50px;
+    
+}
 .col.w-40{
     width: 40%;
     float: right;
@@ -347,6 +369,10 @@ h2{
     font-style: normal;
     padding-top: 150px;
 }
+
+h2.col.w-50{
+    padding-bottom: 150px ;
+}
 .option{
     display: inline;
     font-size: 20px;
@@ -419,8 +445,12 @@ li.list-icon::before{
   
 }
 
-li.list-icon{
+ul li{
+
     list-style: none;
+}
+
+li.list-icon{
     text-indent: -1.5em;
     padding-left: 40px;  
     margin-bottom: 20px;
@@ -519,8 +549,8 @@ a.color-blue{
 }
 
 
-section.bg-color-azzurro > div ,
-section.questions{
+section.bg-color-azzurro > div 
+{
     width: 1500px;
     margin: 0 auto;
 
@@ -565,3 +595,26 @@ section.w-900px{
     width:1200px;
     margin: 0 auto;
 }
+
+footer{
+    background-color: black;
+   
+
+}
+
+.footer-nav{
+    width: 1800px;
+    margin: 0 auto;
+}
+
+ul li a{
+    color: white;   
+    line-height: 30px;
+    
+}
+
+ #line-footer {
+    width: 10%;
+    margin-bottom: 50px;
+    background-color:white;
+  }
